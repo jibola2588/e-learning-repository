@@ -1,0 +1,9 @@
+@media (max-width:840px){ 
+    .nav-link{ 
+        margin-left: 0px;
+        padding: 5px 5px;
+    }
+    .nav-btn1,.nav-btn2{ 
+        padding: 10px 15px; 
+    }
+}
