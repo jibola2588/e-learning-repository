@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
+
     screens: {
       xsm: "400px",
       sm: "640px",
@@ -13,4 +14,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
