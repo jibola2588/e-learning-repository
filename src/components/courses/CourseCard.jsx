@@ -5,7 +5,8 @@ import { Icon } from '@iconify/react';
 function CourseCard({ backgroundImg, Reviews, courseDuration, courseReviews, courseViews, courseTitle, tutorName, tutorImg, slashPrice, currentPrice }) {
   return (
     <>
-      <div className={`flex flex-col relative rounded-xl border-t border-b border-r border-l border-[#D9D9D9]  mt-2 md:mt-4 mb-0`}>
+      <div className={`flex flex-col relative rounded-xl border-t border-b border-r border-l border-[#D9D9D9]  mt-2 md:mt-4 mb-0 font-[
+  Satoshi]`}>
 
         {/* topCardSection */}
       <div className="border-b">
@@ -44,17 +45,18 @@ function CourseCard({ backgroundImg, Reviews, courseDuration, courseReviews, cou
       </div>
 
       {/* bottomCardSecion */}
-      <div className="m-2">
-        <h2 className="font-medium text-[18px] sm:text-[24px] text-[#00349A] font-[
-  Satoshi] mt-0 md:mt-2">{courseTitle}</h2>
-          <div className="courseTutor flex-1 flex flex-row justify-between py-8">
+      <div className="m-2 flex flex-col">
+        <div className="flex sm:h-[95px]">
+          <h2 className="font-medium text-[18px] sm:text-[24px] text-[#00349A] flex-initial font-[
+    Satoshi] mt-0 md:mt-2">{courseTitle}</h2>
+        </div> 
+          <div className="flex flex-row justify-between py-8 sm:h-[95px]">
             {/* course TutorDetails */}
               <div className='flex flex-row items-end'>
                 <img className='w-[30px] h-[30px] md:w-[40px] md:h-[40px]' src={tutorImg} alt="" />
                 <p className='font-medium text-[#00349A] text-sm md:text-lg mx-1'>{tutorName}</p>
               </div>
            
-
 
             {/* course Price*/}
               <div className='flex flex-row gap-2 font-medium items-end'>

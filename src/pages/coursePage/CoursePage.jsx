@@ -26,7 +26,7 @@ function CoursePage() {
     <>
       <Navbar />
       <div>
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6 mb-44">
           <div className="flex justify-between flex-wrap mt-16 mb-4">
             <h3 className="text-[#00349A] text-2xl">Explore Courses</h3>
             <form className="flex items-center bg-gray-light px-4 py-1 border rounded-full sm:px-7 sm:py-2">
@@ -79,7 +79,7 @@ function CoursePage() {
               Reviews="(200)"
               courseViews="78,500"
               courseDuration="96"
-              courseTitle="Product Management Into-Course"
+              courseTitle="Introduction to html, css and javascript"
               tutorImg={tutorImg1}
               tutorName="Jerry Thomas"
               slashPrice="$87.0"
@@ -92,7 +92,7 @@ function CoursePage() {
               Reviews="(120)"
               courseViews="28,500"
               courseDuration="36"
-              courseTitle="Product Management Into-Course"
+              courseTitle="Introductio to Python, Django & API's"
               tutorImg={tutorImg2}
               tutorName="Patrick James"
               slashPrice="$95.0"
@@ -120,7 +120,7 @@ function CoursePage() {
               Reviews="(200)"
               courseViews="78,500"
               courseDuration="96"
-              courseTitle="Product Management Into-Course"
+              courseTitle="Introduction to html, css and javascript"
               tutorImg={tutorImg1}
               tutorName="Jerry Thomas"
               slashPrice="$87.0"
@@ -133,7 +133,7 @@ function CoursePage() {
               Reviews="(120)"
               courseViews="28,500"
               courseDuration="36"
-              courseTitle="Product Management Into-Course"
+              courseTitle="Introductio to Python, Django & API's"
               tutorImg={tutorImg2}
               tutorName="Patrick James"
               slashPrice="$95.0"
@@ -161,7 +161,7 @@ function CoursePage() {
               Reviews="(200)"
               courseViews="78,500"
               courseDuration="96"
-              courseTitle="Product Management Into-Course"
+              courseTitle="Introduction to html, css and javascript"
               tutorImg={tutorImg1}
               tutorName="Jerry Thomas"
               slashPrice="$87.0"
@@ -174,7 +174,7 @@ function CoursePage() {
               Reviews="(120)"
               courseViews="28,500"
               courseDuration="36"
-              courseTitle="Product Management Into-Course"
+              courseTitle="Introductio to Python, Django & API's"
               tutorImg={tutorImg2}
               tutorName="Patrick James"
               slashPrice="$95.0"
