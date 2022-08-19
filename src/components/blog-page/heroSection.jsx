@@ -1,4 +1,4 @@
-import blogImage from '../../assets/images/blogImage1.png'
+import blogImage from '../../assets/images/blog.png'
 
 export const HeroSection = () => {
     return(
@@ -10,7 +10,7 @@ export const HeroSection = () => {
                 grid-cols-1 items-center gap-y-16 gap-x-20 px-4
                 lg:max-w-8xl lg:grid-cols-2 lg:px-8"
                 >
-                    <div className="relative pb-4 z-10 md:text-center lg:text-left">
+                    <div className="relative pb-6 z-10 md:text-center lg:text-left">
                         <div className="relative">
                             {/* <p>Where tech talents come to grow</p> */}
                             <h3 className="font-bold leading-[67px] text-[56px] text-[#00349A]">Where tech talents</h3> 
@@ -30,11 +30,12 @@ export const HeroSection = () => {
                         </div>
                     </div>
                     <div className="relative lg:static pb-0 xl:pl-10">
-                    <img className="relative  bottom-0 pb-0" src={blogImage} alt="hero-image" />
+                    {/* <img className="relative  bottom-0 pb-0" src={blogImage} alt="hero-image" /> */}
                     
                         <div className="pb-0">
-                            <div className="-mt-[27rem] pb-20 -ml-5 w-72 h-72 rounded-full bg-[#fbe3b2]"></div>
-                            <div className="w-72 h-72 bg-[#d2f8ff] ml-40 -mt-[9rem] rounded-full"></div>
+                            <img src={blogImage} alt="hero-image" />
+                            {/* <div className="-mt-[27rem] pb-20 -ml-5 w-72 h-72 rounded-full bg-[#fbe3b2]"></div>
+                            <div className="w-72 h-72 bg-[#d2f8ff] ml-40 -mt-[9rem] rounded-full"></div> */}
                         </div>
                     </div>
                 </div>
