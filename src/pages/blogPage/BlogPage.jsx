@@ -10,13 +10,14 @@ export const BlogPage = () => {
         <div>
             <Navbar />
             <HeroSection />
-            <div className="grid grid-cols-2">
+            <Tabs />
+            
+            <div className="grid lg:grid-cols-2 bg-[#5AB1BB] py-20">
             < LearnFromSection />
             < ELearningVideo />
 
             </div>
 
-            <Tabs />
             <Footer />
 
         </div>
