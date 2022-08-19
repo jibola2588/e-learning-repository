@@ -13,6 +13,8 @@ import CourseCard from "../../components/courses/CourseCard";
 import UImg from "../../assets/images/UiUx.png";
 import HtmlImg from "../../assets/images/html.png";
 import PythonImg from "../../assets/images/python.png";
+import tutorImg from "../../assets/images/tutor1.png";
+
 
 
 
@@ -62,6 +64,7 @@ function CoursePage() {
               courseViews="28,500"
               courseDuration="36"
               courseTitle="Product Management Into-Course"
+              tutorImg={tutorImg}
               tutorName="Kera David"
               slashPrice="$55.0"
               currentPrice="$37.67"
