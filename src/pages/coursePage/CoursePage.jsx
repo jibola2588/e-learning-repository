@@ -8,6 +8,12 @@ import backEnd from "../../assets/images/backEnd.jpeg";
 import mobileDev from "../../assets/images/mobileDev.jpg";
 import digitalMarketting from "../../assets/images/digitalMarketting.jpg";
 import frontEnd from "../../assets/images/frontEnd.jpeg";
+import CourseCard from "../../components/courses/CourseCard";
+import UImg from "../../assets/images/UiUx.png";
+import HtmlImg from "../../assets/images/html.png";
+import PythonImg from "../../assets/images/python.png";
+
+
 
 function CoursePage() {
   return (
@@ -45,6 +51,30 @@ function CoursePage() {
         </div>
 
         <CategoriesHeader header="Beginners Courses" />
+        
+        <div className="grid  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-4 py-2 md:py-4">
+            <CourseCard 
+              backgroundImg={UImg}
+              courseReviews="4.5"
+              Reviews="(120)"
+              courseViews="28,500"
+              courseDuration="36"
+              courseTitle="Product Management Into-Course"
+              tutorName="Kera David"
+              slashPrice="$55.0"
+              currentPrice="$37.67"
+            />
+
+            <CourseCard 
+              backgroundImg={HtmlImg}
+              coursesReviews="5"
+            />
+
+            <CourseCard 
+              backgroundImg={PythonImg}
+              coursesReviews="4.5"
+            />
+        </div>
       </div>
     </div>
   );
