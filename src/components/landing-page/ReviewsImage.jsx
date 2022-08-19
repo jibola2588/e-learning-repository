@@ -18,7 +18,6 @@ export const ReviewsImage = ({type}) => {
            data = { 
                img : rev2,
                zIndex: " 7",
-               marginLeft:'-10px'
            }
            break;
        case "rev3" :
@@ -44,8 +43,8 @@ export const ReviewsImage = ({type}) => {
 
    }
   return (
-    <div className="w-10 h-10">
-    <img src={data.img} alt="image of review" className="w-[100%]"/>
+    <div className= 'w-10 h-10' style = {{marginLeft : (data.zIndex > 7 ) ? '0px' : '-10px',zIndex : data.zIndex }} >
+    <img src={data.img} alt="image of review" className="w-[100%] object-cover h-[100%]" />
   </div>
   );
 }
