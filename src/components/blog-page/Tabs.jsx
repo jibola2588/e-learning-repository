@@ -31,7 +31,7 @@ export const Tabs = () => {
             <div className="content">
                 {tabs.map((tab, i) => 
                     <div key={i}>
-                        {currentTab === `${tab.id}` && <div>
+                       {currentTab === `${tab.id}` && <div>
                             <p>{tab.content}</p>
                         </div>}
                     </div>

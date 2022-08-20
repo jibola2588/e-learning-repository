@@ -7,14 +7,16 @@ import {HeaderBottomPart} from './Header-Bottom-Part'
 import {AllLogos} from './All-Logos'
 
 
+// import './header.css'
+
 const Header = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-start font-[satoshi] lg:pt-[50px]">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
+          <div className="wrapper flex flex-wrap items-start  font-[satoshi] lg:pt-[50px]">
               <div className="left flex-1  pt-4 lg:pt-[40px]">
                  <div>
-                    <h3 className="font-bold leading-[67px] text-[54px] text-[#00349A]">Learning Skills for</h3> 
-                    <h3 className="font-bold leading-[67px] text-[54px] text-[#00349A]">a better career</h3>
+                    <h3 className="font-bold md:leading-[56px] md:text-[50px] lg:leading-[67px] lg:text-[54px] text-[#00349A]">Learning Skills for</h3>  
+                    <h3 className="font-bold md:leading-[56px] md:text-[50px] lg:leading-[67px] lg:text-[54px]  text-[#00349A]">a better career</h3>
                     <div className="mt-2 lg:mt-[14px]">
                     <p className="font-normal text-base leading-6 text-[#636468]">We believe the world is more beautiful as each person</p>
                     <p className="font-normal text-base leading-6 text-[#636468]">get more skill and know how to implement. </p>
@@ -69,8 +71,8 @@ const Header = () => {
               </div>
               <div  className="absolute z-10 bottom-2 -left-36">
                <AbsolutePartHeader />
-              </div>
-              </div>    
+              </div> 
+              </div>     
               
            </div>
               {/* below main header */}

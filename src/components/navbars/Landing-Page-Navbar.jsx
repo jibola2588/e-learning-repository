@@ -37,35 +37,35 @@ const Navbar = () => {
                 <div className="nav-link-wrapper flex items-baseline space-x-4">
                   <Link
                     to="/community"
-                    className=" nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md hover:bg-[#00349A] hover:text-white"
+                    className=" nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-white"
                   >
                   Community
                   </Link>
 
                   <Link
                     to="/courses"
-                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md  hover:bg-[#00349A] hover:text-white"
+                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-white"
                   >
                     Courses
                   </Link>
 
                   <Link
                     to="/contact"
-                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md  hover:bg-[#00349A] hover:text-white"
+                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md  transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-white"
                   >
                  Contact
                   </Link>
 
                   <Link
                     to="/about-us"
-                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md  hover:bg-[#00349A] hover:text-white"
+                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-white"
                   >
                    About us
                   </Link>  
 
                   <Link
                     to="/blog"
-                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md  hover:bg-[#00349A] hover:text-white"
+                    className="nav-link text-sm font-bold leading-5 text-[#111827] px-3 py-2 rounded-md transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-white"
                   >
                    Blog
                   </Link>
@@ -123,14 +123,14 @@ const Navbar = () => {
               <div className="hidden md:block">
                   <Link 
                   to = "/signin"
-                  className="nav-btn1  text-sm font-bold leading-5 px-[32px] py-[14px] bg-[#00349A] rounded-full text-white text-sm leading-5 cursor-pointer hover:bg-[#fff] hover:text-[#00349A] border border-[#00349A] ">
+                  className="nav-btn1  text-sm font-bold leading-5 px-[32px] py-[14px] bg-[#00349A] rounded-full text-white text-sm leading-5 cursor-pointer transition ease-in-out delay-150  hover:bg-[#fff] hover:text-[#00349A] border border-[#00349A] ">
                  Sign in
                   </Link>
               </div>
               <div className="hidden md:block pl-4">
                   <Link
                   to = '/signup'
-                  className="nav-btn2  text-sm font-bold leading-5 text-[#00349A]  border border-[#00349A] px-[32px] py-[14px] rounded-full text-sm leading-5 cursor-pointer hover:bg-[#00349A] hover:text-[#ffffff] ">
+                  className="nav-btn2  text-sm font-bold leading-5 text-[#00349A]  border border-[#00349A] px-[32px] py-[14px] rounded-full text-sm leading-5 cursor-pointer transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-[#ffffff] ">
                   Sign up
                   </Link>
               </div>
@@ -172,6 +172,12 @@ const Navbar = () => {
                   className="nav-info text-base font-bold leading-5 text-[#111827]"
                 >
                  Contact
+                </Link>
+                <Link
+                  to="/contact"
+                  className="nav-info text-base font-bold leading-5 text-[#111827]"
+                >
+                 Blog
                 </Link>
                 <Link
                   to="/about-us"
