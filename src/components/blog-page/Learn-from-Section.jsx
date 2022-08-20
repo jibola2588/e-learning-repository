@@ -14,7 +14,6 @@ export default function StartLearning() {
                         </p>
                         <button className="bg-[#00349A] rounded-[40px] text-white py-[18px] px-[32px] mt-7 relative z-10">Start Learning Now</button>
                         
-                        <img className='absolute -left-12 -bottom-5' src={DottedFrame} alt="dotted-frame" />
                     </div>
 
             </div>

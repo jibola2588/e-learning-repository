@@ -3,6 +3,7 @@ import Header from "../../components/landing-page/Header"
 import Testimony from "../../components/landing-page/Testimony"
 import Footer from "../../components/footer/Footer"
 import LeadingUniversities from "../../components/landing-page/leadingUniversities"
+import LeadingUniversitiesTwo from "../../components/landing-page/leadingUniversitiesTwo"
 
 
 export const LandingPage = () => { 
@@ -11,6 +12,7 @@ export const LandingPage = () => {
             <Navbar />
             <Header /> 
             <LeadingUniversities />
+            <LeadingUniversitiesTwo />
             <Testimony />
              <Footer /> 
         </div>
