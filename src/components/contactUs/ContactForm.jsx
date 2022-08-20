@@ -30,6 +30,9 @@ export const ContactForm = () => {
                             <textarea className="border border-2 h-20 md:h-28 w-full mt-1 placeholder:text-[#8F8F8F] placeholder:text-[16px] placeholder:font-[400] rounded-[5.94444px] md:rounded-[10px] p-1 md:p-3 focus:outline-none focus:border-[#00349A]" placeholder="Write a text" name="contact-details" id="" required></textarea>
                         </div>
                     </div>
+                    <div className="flex justify-end mt-[20px]">
+                        <button type="submit" className="bg-[#00349A] hover:border hover:bg-white hover:border-[#00349A] hover:text-[#00349A] py-[10.7px] px-[19.1px] md:py-4 md:px-[32px] text-[9.5px] font-[500] md:text-[16px] rounded-[40px] text-white">Send message</button>
+                    </div>
                 </form>
             </div>
         </div>
