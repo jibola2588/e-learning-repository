@@ -80,18 +80,18 @@ const Header = () => {
               
            </div>
               {/* below main header */}
-              {/* <div className="mt-[45px] mb-[50px] flex items-center">
+              <div className="mt-[45px] mb-[50px] flex items-center">
                   <HeaderBottomPart type="A"/>
                   <HeaderBottomPart type="B"/>
                   <HeaderBottomPart type="C"/>
                   <HeaderBottomPart type="D"/>
             
-              </div> */}
+              </div>
 
-           {/* <hr className="bg-[#E5E7EB] border"/>
+           <hr className="bg-[#E5E7EB] border"/>
            <div className ="my-[30px]">
            <AllLogos />
-           </div> */}
+           </div>
      </div>
   );
 }
