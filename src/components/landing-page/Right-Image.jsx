@@ -30,7 +30,7 @@ export const RightImage = ({type}) => {
           break;
     }
   return (
-    <div className= {` w-[280px] h-[220px]`}>
+    <div className= {`image md:w-[240px] md:h-[200px] lg:w-[280px] lg:h-[220px]`}>
        <img src={data.img} alt="image of right-header" className={`object-cover w-[100%] h-[100%]`} />
     </div>
   );
