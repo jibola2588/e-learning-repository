@@ -5,15 +5,11 @@ import { Transition } from "@headlessui/react";
 import './Landing-Page.css'
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const [show, setShow] = useState("hide")
-  const showHandler = ()=>{
-      if (show == "show"){
-          setShow("hide")
-      }if (show == "hide"){
-          setShow("show")
-      }
+  return ( 
+    <div>
+      navbar
+    </div>
+  )
   }
 
   return (
@@ -134,13 +130,6 @@ const Navbar = () => {
                   Sign up
                   </Link>
               </div>
-              {/* <div className="hidden md:block pl-4">
-                  <Link
-                  to = '/signup'
-                  className="nav-btn2  text-sm font-bold leading-5 text-[#00349A]  border border-[#00349A] px-[32px] py-[14px] rounded-full text-sm leading-5 cursor-pointer transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-[#ffffff] ">
-                  Sign up
-                  </Link>
-              </div> */}
             </div>
             </div>
 
@@ -213,7 +202,7 @@ const Navbar = () => {
         </Transition>
       </nav>
   );
-}
+
 
 export default Navbar;
 
