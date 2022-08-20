@@ -6,7 +6,7 @@ export const BlogContent = ()  => {
     return (
         <div className="mt-16">
             <header className="w-full border-b-2 border-[#00349A] pb-[14px] mb-10">
-                <p className="text-[#00349A] font-[500] font-[20px]">Latest Posts</p>
+                <p className="text-[#00349A] font-[500] text-[20px]">Latest Posts</p>
             </header>
             <div className="mt-7 grid grid-cols-1 gap-x-28 md:grid-cols-2 items-center">
                 <div>
