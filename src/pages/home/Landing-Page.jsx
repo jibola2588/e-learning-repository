@@ -9,10 +9,10 @@ export const LandingPage = () => {
     return ( 
         <div>
             <Navbar />
-            <Header /> 
+            {/* <Header /> 
             <LeadingUniversities />
             <Testimony />
-             <Footer /> 
+             <Footer />  */}
         </div>
     )
 }

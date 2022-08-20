@@ -5,17 +5,22 @@ import { Transition } from "@headlessui/react";
 import './Landing-Page.css'
 
 const Navbar = () => {
-  return ( 
-    <div>
-      navbar
-    </div>
-  )
+  const [isOpen, setIsOpen] = useState(false);
+
+  const [show, setShow] = useState("hide")
+  const showHandler = ()=>{
+      if (show == "show"){
+          setShow("hide")
+      }if (show == "hide"){
+          setShow("show")
+      }
   }
+
 
   return (
       <nav className="nav font-[Satoshi]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="wrapper flex items-center justify-between">
+          <div className="navwrapper flex items-center justify-between">
           <div className="">
               <div className="flex-shrink-0">
                 <Link to="/">          
@@ -147,7 +152,7 @@ const Navbar = () => {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden " id="mobile-menu">
+            <div className="md:hidden z-10" id="mobile-menu">
               <div ref={ref} className="flex flex-col px-[20px] sm:px-[25px] pt-2 pb-3 space-y-3 sm:px-3 z-10">
                 <Link
                   to = "/community"
@@ -202,7 +207,7 @@ const Navbar = () => {
         </Transition>
       </nav>
   );
-
+}
 
 export default Navbar;
 
