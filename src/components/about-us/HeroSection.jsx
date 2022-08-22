@@ -13,8 +13,8 @@ function HeroSection() {
                         </div>
                     </div>
                     <div className="heroShapes flex-auto mt-6 sm:mt-0">
-                        <div className="shape1 w-44 xs:w-[296.77px] h-44 xs:h-[296.77px] bg-[#FBE3B2] rounded-full"></div>
-                        <div className="shape1 w-44 xs:w-[296.77px] h-44 xs:h-[296.77px] bg-[#D2F8FF] rounded-full absolute left-[150px] sm:left-[850px] top-[350px] sm:top-[135px]"></div>
+                        <div className="shape1 w-44 sm:w-[296.77px] h-44 sm:h-[296.77px] bg-[#FBE3B2] rounded-full"></div>
+                        <div className="shape1 w-44 sm:w-[296.77px] h-44 sm:h-[296.77px] bg-[#D2F8FF] rounded-full absolute left-[150px] sm:left-[850px] top-[350px] sm:top-[135px]"></div>
                     </div>
                 </div>
             </div>
