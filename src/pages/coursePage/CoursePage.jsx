@@ -24,9 +24,9 @@ import tutorImg2 from "../../assets/images/tutor3.png";
 function CoursePage() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <div>
-        <div className="max-w-7xl mx-auto px-6 mb-44">
+        <div className="max-w-6xl mx-auto px-6 mb-44">
           <div className="flex justify-between flex-wrap mt-16 mb-4">
             <h3 className="text-[#00349A] text-2xl">Explore Courses</h3>
             <form className="flex items-center bg-gray-light px-4 py-1 border rounded-full sm:px-7 sm:py-2">

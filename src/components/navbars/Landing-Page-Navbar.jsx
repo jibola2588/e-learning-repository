@@ -16,7 +16,6 @@ const Navbar = () => {
       }
   }
 
-
   return (
       <nav className="nav font-[Satoshi]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -30,7 +29,7 @@ const Navbar = () => {
                   alt="start innovation hub logo"
                 /> 
                 </Link>
-              </div>
+              </div><h1></h1>
     
               </div>
             <div className="flex items-center">
@@ -124,17 +123,18 @@ const Navbar = () => {
               <div className="hidden md:block">
                   <Link 
                   to = "/signin"
-                  className="nav-btn1  text-sm font-bold leading-5 px-[32px] py-[14px] bg-[#00349A] rounded-full text-white text-sm leading-5 cursor-pointer transition ease-in-out delay-150  hover:bg-[#fff] hover:text-[#00349A] border border-[#00349A] ">
+                  className="nav-btn1 font-bold  px-[32px] py-[14px] bg-[#00349A] rounded-full text-white text-sm leading-5 cursor-pointer transition ease-in-out delay-150  hover:bg-[#fff] hover:text-[#00349A] border border-[#00349A] ">
                  Sign in
                   </Link>
               </div>
               <div className="hidden md:block pl-4">
                   <Link
                   to = '/signup'
-                  className="nav-btn2  text-sm font-bold leading-5 text-[#00349A]  border border-[#00349A] px-[32px] py-[14px] rounded-full text-sm leading-5 cursor-pointer transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-[#ffffff] ">
+                  className="nav-btn2  font-bold  text-[#00349A]  border border-[#00349A] px-[32px] py-[14px] rounded-full text-sm leading-5 cursor-pointer transition ease-in-out delay-150 hover:bg-[#00349A] hover:text-[#ffffff] ">
                   Sign up
                   </Link>
               </div>
+             
             </div>
             </div>
 
@@ -153,7 +153,7 @@ const Navbar = () => {
         >
           {(ref) => (
             <div className="md:hidden z-10" id="mobile-menu">
-              <div ref={ref} className="flex flex-col px-[20px] sm:px-[25px] pt-2 pb-3 space-y-3 sm:px-3 z-10">
+              <div ref={ref} className="flex flex-col px-[20px]  pt-2 pb-3 space-y-3 sm:px-3 z-10">
                 <Link
                   to = "/community"
                   className="nav-info text-base font-bold leading-5 text-[#111827]"
