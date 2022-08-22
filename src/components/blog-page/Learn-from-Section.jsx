@@ -8,7 +8,7 @@ export default function StartLearning() {
              items-center gap-y-16 gap-x-20 pr-4
             lg:max-w-8x place-items-start'>
                     <div className="place-self-start relative">
-                        <h5 className="text-[40px] font-[500] ">Learn from leading  universities and companies</h5>
+                        <h5 className="md:text-[40px] sm:text-[30px] text-[30px] font-[500] ">Learn from leading  universities and companies</h5>
                         <p className="col-5 text-[21px] md:pr-[6rem] mt-5 text-gray-500">
                         Start streams on video demand lectures today from top instructors in subject like business, computer science, data science, language learning, & more.
                         </p>

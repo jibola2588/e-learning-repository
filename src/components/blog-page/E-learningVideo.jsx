@@ -13,9 +13,9 @@ export default function StartLearningVideo() {
                 <div className="bg-[#14142B] opacity-20 absolute w-[430px] h-[570px] -top-[6rem] right-0">
                
                 </div>
-                <img className='absolute left-[11.5rem] -top-[3.5rem]' src={DottedFrame} alt="dotted-frame" />
+                <img className='absolute left-[16rem] -top-[3.5rem]' src={DottedFrame} alt="dotted-frame" />
                 
-                <video className='sm:m-auto ' src={ELearningVideo} type="video/mp4" controls>
+                <video className='sm:m-auto xl:w-[500px] lg:-left-[4.5rem] lg:w-[75%] md:w-[65%] sm:w-[80%] w-[80%] mx-auto' src={ELearningVideo} type="video/mp4" controls>
                 </video>
 
             </div>
