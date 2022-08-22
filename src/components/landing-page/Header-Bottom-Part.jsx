@@ -34,16 +34,16 @@ export const HeaderBottomPart = ({type}) => {
           break;
   }
   return (
-    <div className="flex items-center">
-       <div className="left flex flex-col pr-[30px]">
+    <div className="flex  items-center">
+       <div className="left flex flex-col pr-[10px] sm:pr-[30px]">
          <div className="top">
-           <h3 className="font-bold text-[18px] leading-[24px]">{data.num}+</h3>
+           <h3 className="font-bold  text-[14px] leading-[18px] sm:text-[18px] sm:leading-[24px]">{data.num}+</h3>
          </div>
          <div className="bottom">
-           <p className="font-normal text-[18px] leading-[24px] text-[#636367]">{data.detail}</p>
+           <p className="font-normal  text-[14px] leading-[18px] sm:text-[18px] sm:leading-[24px] text-[#636367]">{data.detail}</p>
          </div>
        </div>
-       <div className="right pr-[30px]">
+       <div className="right pr-[10px] sm:pr-[30px]">
          {data.border && <h3 className="border border-[#636367] bg-[#636367] h-[30px] "></h3>}
        </div>
     </div>

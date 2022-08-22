@@ -11,10 +11,10 @@ import './header.css'
 
 const Header = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
-          <div className="wrapper flex font-[satoshi] lg:pt-[50px]">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 box-border">
+          <div className="wrapper flex font-[satoshi] lg:pt-[50px] mb-4 md:mb-8 lg:mb-[40px]">
               <div className="wrapper-left flex-1  pt-4 lg:pt-[40px]">
-                 <div className="flex flex-col space-y-5 lg:space-y-5">
+                 <div className="flex flex-col space-y-6 lg:space-y-5">
                     <div>
                     <h3 className="font-bold leading-[45px] text-[40px] md:leading-[50px] md:text-[45px] lg:leading-[55px] lg:text-[47px] xl:leading-[67px] xl:text-[54px] text-[#00349A]">Learning Skills for</h3>  
                     <h3 className="font-bold leading-[45px] text-[40px] md:leading-[50px] md:text-[45px]  lg:leading-[55px] lg:text-[47px] xl:leading-[67px] xl:text-[54px]  text-[#00349A]">a better career</h3>
@@ -66,7 +66,7 @@ const Header = () => {
                          <RightImage  type="part4"/>
                      </div>
                  </div>
-                   {/* absolute part          */}
+                      
               <div className="absolute stack1 z-10 -top-10 -left-36">
                <AbsolutePartHeader />
               </div>
@@ -80,7 +80,7 @@ const Header = () => {
               
            </div>
               {/* below main header */}
-              <div className="mt-[45px] mb-[50px] flex items-center">
+              <div className="my-[40px] lg:my-[50px] flex items-center">
                   <HeaderBottomPart type="A"/>
                   <HeaderBottomPart type="B"/>
                   <HeaderBottomPart type="C"/>

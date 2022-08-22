@@ -1,7 +1,7 @@
 import img1 from '../../assets/images/test1.png'
 import img2 from '../../assets/images/test2.png'
 import img3 from '../../assets/images/test3.png'
-
+import "./testimonial.css"
 
 export const Testimonials = ({type}) => {
     let data ;
@@ -35,8 +35,8 @@ export const Testimonials = ({type}) => {
 
     }
   return (
-    <div className="flex  items-center max-w-4xl mt-[50px]">
-           <div className="left w-1/4 pr-8">
+    <div className="flex testimony items-center max-w-4xl mt-[50px]">
+           <div className="hidden md:block testimony-left w-1/4 pr-8">
               <div className="top flex items-center ">
                  <div className="left w-[49px] h-[49px]">
                       <img src={data.img} alt="testimonial image w-[100%] h-[100%] object-cover"/>
@@ -48,9 +48,24 @@ export const Testimonials = ({type}) => {
               </div>
               
            </div>
+           <div className="block md:hidden testimony-left w-1/4 pr-[20px]">
+              <div className="top flex items-center ">
+                 <div className="left w-[49px] h-[49px]">
+                      <img src={data.img} alt="testimonial image w-[100%] h-[100%] object-cover"/>
+                 </div>
+                 <div className="right pl-[10px]">
+                      <h3 className="font-bold text-[13px] leading-[18px]">{data.name}</h3>
+                      <p  className="font-normal text-sm leading-[16px] text-[#4f4f4f]" >{data.company}</p>
+                 </div>
+              </div>
+              
+           </div>
 
-           <div className="right w-3/4">
-                <div className='font-normal text-base leading-[26.32px]  border-l-[3px] border-[CBE2EC]  pl-8'>
+           <div className="testimony-right w-3/4">
+                <div className='hidden md:block font-normal text-base leading-[26.32px]  border-l-[3px] border-[CBE2EC]  pl-8'>
+                   {data.content}
+                </div>
+                <div className='block md:hidden font-normal text-sm leading-[18px]  border-l-[3px] border-[CBE2EC]  pl-[20px]'>
                    {data.content}
                 </div>
            </div>
