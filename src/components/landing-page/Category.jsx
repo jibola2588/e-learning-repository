@@ -107,7 +107,7 @@ export const Category = ({cat}) => {
   }
     return (
         <>
-          <div className={`category w-[340px] border-box relative rounded-xl border-t border-b border-r border-l border-[#D9D9D9] bg-white  mb-0 font-[
+          <div className={`category w-[340px] border-box relative rounded-xl hover:transition-shadow border-t border-b border-r border-l border-[#D9D9D9] bg-white  mb-0 font-[
       Satoshi]`}
       >
 
