@@ -2,7 +2,7 @@ import DottedFrame from '../../assets/images/Dotted-frame.svg'
 
 export default function StartLearning() {
     return (
-        <div className="left flex-2 pl-[7rem] ">
+        <div className="left flex-2 justify-center pl-[2rem] md:pl-[7rem] ">
                             <div>
                                 <h5 className="font-bold md:leading-[30px] text-[25px] md:text-[30px] lg:leading-[40px] lg:text-[35px] text-black">Learning from leading</h5>
                                 <h5 className="font-bold md:leading-[30px] text-[25px] md:text-[30px] lg:leading-[40px] lg:text-[35px]  text-black">Universities and companies</h5>
