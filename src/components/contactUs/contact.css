@@ -1,0 +1,26 @@
+@media (min-width:1024px) {
+    .split-bg {
+        background: linear-gradient(to right, white 50%, #EBF1FF 50%);
+    }
+}
+
+@media (max-width:1023px) {
+    .split-res-bg {
+        background: #EBF1FF;
+        padding: 4rem;
+    }
+}
+
+@media (max-width:768px) {
+    .split-res-bg {
+        background: #EBF1FF;
+        padding: 3rem;
+    }
+}
+
+@media (max-width:390px) {
+    .split-res-bg {
+        background: #EBF1FF;
+        padding: 1rem;
+    }
+}

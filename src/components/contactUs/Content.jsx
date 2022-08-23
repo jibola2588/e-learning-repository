@@ -1,9 +1,11 @@
 import { ContactForm } from "./ContactForm"
+import "./contact.css"
 
 export const ContactContent = () => {
     return (
-        <div className="grid font-[satoshi] grid-cols-1 lg:pl-[7.4rem] lg:grid-cols-2 mt-8">
-            <div className="pl-4">
+        <div className="mt-8 split-bg w-full">
+            <div className="grid font-[satoshi] max-w-[70rem] mx-auto grid-cols-1 lg:grid-cols-2">
+                <div className="pl-4 sticky">
                 <h2 className="text-[#00349A] md:text-[56px] text-[34.6106px] font-[700]">Get in touch</h2>
                 <p className="mt-3 font-[400] text-[9.88875px] md:text-[16px] text-[#14142B]">Our friendly team will love to hear from you.<br />
                 We are concern about bring knowledge at your pace and your bed space.</p>
@@ -15,6 +17,7 @@ export const ContactContent = () => {
             </div>
             <div className="">
                 <ContactForm />
+            </div>
             </div>
         </div>
     )
