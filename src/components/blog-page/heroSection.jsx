@@ -10,11 +10,11 @@ export const HeroSection = () => {
                 grid-cols-1 items-center gap-y-16 gap-x-20 px-4
                 lg:max-w-8xl lg:grid-cols-2 lg:px-8"
                 >
-                    <div className="relative pb-6 z-10 md:text-center lg:text-left">
+                    <div className="relative pb-6 z-10 text-center lg:text-left">
                         <div className="relative">
                             {/* <p>Where tech talents come to grow</p> */}
-                            <h3 className="font-bold leading-[67px] text-[56px] text-[#00349A]">Where tech talents</h3> 
-                            <h3 className="font-bold leading-[67px] text-[56px] text-[#00349A]">come to grow</h3>
+                            <h3 className="font-bold leading-[67px] text-4xl md:text-5xl lg:text-[56px] text-[#00349A]">Where tech talents</h3> 
+                            <h3 className="font-bold -mt-4 md:mt-4 leading-[67px] text-4xl md:text-5xl lg:text-[56px] text-[#00349A]">come to grow</h3>
                             <p className="h-[48px] mt-[24px] lg:w-[547.87px] normal font-[400] text-[16px] text-[#14142B]">Discover a wide range of resources written by experienced tech professionals<br />
                             at Enyata. Never miss a new post, stay updated by subscribing to our blog.</p>
                             {/* <p className="h-[48px] sm:mt-10 md:-mt-[20px] normal font-[400] text-[16px] text-[#14142B]">
