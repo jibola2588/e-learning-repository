@@ -28,9 +28,9 @@ export const EventContent = () => {
                 <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                     <img src={androidEvent} alt="pyt-image" />
                 </button>
-                <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+                {/* <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                     <img src={webEvent} alt="web-image" />
-                </button>
+                </button> */}
             </div>
         </div>
     )

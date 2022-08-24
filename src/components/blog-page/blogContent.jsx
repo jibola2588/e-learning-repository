@@ -16,7 +16,8 @@ export const BlogContent = ()  => {
                         <p className="text-[#AAAAAA] ml-3"><span></span>August 10, 2022</p>
                     </div>
                     <div className="mt-5">
-                        <h4 className="font-[700] text-[36px] text-[#00349A]">The Makings of a Successful<br /> Product Manager I</h4>
+                        <h4 className="font-[700] text-[36px] text-[#00349A]">The Makings of a Successful</h4>
+                        <h4 className="font-[700] -mt-3 text-[36px] text-[#00349A]">Product Manager I</h4>
                     </div>
                     <div className="mt-2">
                         <p className="font-[400] text-[16px] text-[#14142B]">Discover a wide range of resources written by experienced <br />
@@ -40,7 +41,8 @@ export const BlogContent = ()  => {
                         <p className="text-[#AAAAAA] ml-3"><span></span>August 10, 2022</p>
                     </div>
                     <div className="mt-5">
-                        <h4 className="font-[700] text-[36px] text-[#00349A]">The Makings of a Successful<br /> Product Manager I</h4>
+                        <h4 className="font-[700] text-[36px] text-[#00349A]">The Makings of a Successful</h4>
+                        <h4 className="font-[700] -mt-3 text-[36px] text-[#00349A]">Product Manager I</h4>
                     </div>
                     <div className="mt-2">
                         <p className="font-[400] text-[16px] text-[#14142B]">Discover a wide range of resources written by experienced <br />
@@ -64,7 +66,8 @@ export const BlogContent = ()  => {
                         <p className="text-[#AAAAAA] ml-3"><span></span>August 10, 2022</p>
                     </div>
                     <div className="mt-5">
-                        <h4 className="font-[700] text-[36px] text-[#00349A]">The Makings of a Successful<br /> Product Manager I</h4>
+                        <h4 className="font-[700] text-[36px] text-[#00349A]">The Makings of a Successful</h4>
+                        <h4 className="font-[700] -mt-3 text-[36px] text-[#00349A]">Product Manager I</h4>
                     </div>
                     <div className="mt-2">
                         <p className="font-[400] text-[16px] text-[#14142B]">Discover a wide range of resources written by experienced <br />
