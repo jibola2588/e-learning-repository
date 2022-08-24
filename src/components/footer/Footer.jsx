@@ -5,7 +5,7 @@ import Logo from "../../assets/images/logo.png";
 function Footer() {
   return (
     <div className="bg-[#35355c] py-6 md:py-16 text-white px-6">
-      <div className="mx-auto text-sm border-t-2 border-b py-12 flex  items-center flex-wrap justify-center flex-col sm:max-w-6xl md:flex-row md:justify-between">
+      <div className="mx-auto text-sm border-t-2 border-b py-8 flex  items-center flex-wrap justify-center flex-col sm:max-w-6xl md:flex-row md:justify-between md:py-12">
         <div className="mr-8 ">
           <Link to="/">
             <img
@@ -16,7 +16,7 @@ function Footer() {
             />
           </Link>
         </div>
-        <div className="pt-4 sm:py-0 sm:pr-16 sm:leading-10">
+        <div className="pt-4 sm:py-0 sm:pr-10 leading-10">
           <span className="flex space-x-3 items-center">
             <i className="bi bi-geo-alt-fill text-lg"></i>
             <p>2nd Floor, 264 Oron Road, Uyo, Akwa Ibom State.</p>
@@ -32,7 +32,7 @@ function Footer() {
               <p>+234-909 000 9216</p>
             </span>
           </div>
-          <span className="flex flex-wrap items-center space-x-4 md:space-x-9">
+          <span className="flex flex-wrap items-center space-x-4 md:space-x-6">
             <p>Social Media</p>
             <a href="#" className="text-lg transition-all hover:pb-3">
               <i className="fa fa-facebook-official " aria-hidden="true"></i>
@@ -60,8 +60,8 @@ function Footer() {
           </span>
         </div>
       </div>
-      <div className="pt-4 max-w-6xl mx-auto flex justify-center items-center flex-wrap place-items-center md:justify-between">
-        <ul className="flex flex-wrap items-center mr-0 text-xs gap-4 pt-4 sm:gap-8 md:mr-8">
+      <div className="pt-4 max-w-6xl mx-auto flex justify-center items-center flex-col md:flex-row md:justify-between">
+        <ul className="flex flex-wrap items-center mr-0 text-xs gap-4 pt-4 sm:gap-6 md:mr-8">
           <Link to="/about-us">ABOUT US</Link>
           <Link to="/contact">CONTACT US</Link>
           <Link to="/">HELP</Link>
