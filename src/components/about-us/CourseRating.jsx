@@ -10,11 +10,11 @@ function CourseRating() {
            <div className="heroImage sm:-mt-[12.3rem] md:-mt-44 sticky">
             <img className='' src={HeroImage} alt="" />
            </div>
-            <div className="my-[40px] lg:my-[50px] flex items-center">
+            <div className="my-[40px] lg:my-[50px] flex flex-row justify-center items-center">
               <HeaderBottomPart type="A"/>
               <HeaderBottomPart type="B"/>
               <HeaderBottomPart type="C"/>
-              <HeaderBottomPart type="A"/>
+              <HeaderBottomPart type="D"/>
               <HeaderBottomPart type="B"/>
               <HeaderBottomPart type="D"/>
             </div> 

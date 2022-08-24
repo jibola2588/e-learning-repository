@@ -3,19 +3,21 @@ import { Icon } from '@iconify/react';
 import img1 from '../../assets/images/image1.png'
 import img2 from '../../assets/images/image2.png'
 
-function AboutCard({card}) {
+function AboutCard({ card }) {
   let data
   switch (card) {
     case "A":
       data = {
-        cardTitle:"UI/UX Design",
-        cardImg:img1,
+        cardTitle: "UI/UX Design",
+        cardImg: img1,
+        cardText: "Discover a wide rage of resources written by experienced tech professionals at Enyata. Never miss a new post, stay updated by subscribing to our blog"
       }
       break;
     case "B":
       data = {
-        cardTitle:"Frontend Development",
-        cardImg:img2,
+        cardTitle: "Frontend Development",
+        cardImg: img2,
+        cardText: "Discover a wide rage of resources written by experienced tech professionals at Enyata. Never miss a new post, stay updated by subscribing to our blog"
       }
       break;
     default:
@@ -23,28 +25,23 @@ function AboutCard({card}) {
   }
   return (
     <>
-    <div className={`category w-[340px] flex flex-row-reverse border-box relative rounded-xl hover:transition-shadow border-t border-b border-r border-l border-[#D9D9D9] bg-white  mb-0 font-[
+      {/* w-[340px] */}
+      <div className={`flex flex-row border-box rounded-2xl hover:cursor-pointer bg-white font-[
 Satoshi]`}
->
-
-    <div className="">
-        <div className='flex-1 w-full boder-box h-[179px] p-2'>
-        <img className='w-[100%] h-[100%] object-cover' src={data.cardImg} alt="course images"  />
-      </div>
-    </div>
-
-    {/* bottomCardSecion */}
-    <div className="p-2 flex flex-col">
-      <div className="flex sm:h-[95px]">
-        <h2 className="font-medium text-[14px] sm:text-[20px] text-[#00349A] flex-initial font-[
-  Satoshi] mt-0 md:mt-2">{data.cardTitle}</h2>
-      </div> 
-        <div className="flex flex-col justify-between py-8 sm:h-[95px]">
-              <p className='font-medium text-[#00349A] text-[12px] md:text-base mx-1'>{data.tutor}</p>
+      >
+        <div className="flex flex-col items-start space-y-2 justify-center md:justify-evenly flex-1 px-4">
+          <h2 className="font-bold text-[18px] sm:text-[20px] md:text-[28px] lg:text-[36px] text-[#00349A] font-[
+  Satoshi]">{data.cardTitle}</h2>
+          <p className='text-[14px] xsm:text-[18px] md:text-[14px] lg:text-[18px] py-4'>
+            {data.cardText}
+          </p>
         </div>
-    </div>
-    </div>
-  </>
+
+        <div className='flex-1'>
+          <img className='w-[100%] h-[100%] object-cover rounded-r-2xl' src={data.cardImg} alt="course images" />
+        </div>
+      </div>
+    </>
   )
 }
 
