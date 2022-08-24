@@ -5,14 +5,14 @@ import Logo from "../../assets/images/logo.png";
 function Footer() {
   return (
     <div className="bg-[#35355c] py-6 md:py-16 text-white px-6">
-      <div className="max-w-6xl mx-auto text-sm border-t-2 border-b py-12 flex justify-between items-center flex-wrap">
-        <div className="mr-8">
+      <div className="mx-auto text-sm border-t-2 border-b py-12 flex  items-center flex-wrap justify-center flex-col sm:max-w-6xl md:flex-row md:justify-between">
+        <div className="mr-8 ">
           <Link to="/">
             <img
               src={Logo}
               alt="Logo"
               href=""
-              className="h-20 object-cover cursor-pointer"
+              className="h-20 max-w-fit object-cover cursor-pointer"
             />
           </Link>
         </div>
@@ -60,8 +60,8 @@ function Footer() {
           </span>
         </div>
       </div>
-      <div className="pt-4 max-w-6xl mx-auto flex justify-between items-center flex-wrap place-items-center">
-        <ul className="flex flex-wrap items-center  mr-8  text-xs gap-4 sm:gap-8 pt-4">
+      <div className="pt-4 max-w-6xl mx-auto flex justify-center items-center flex-wrap place-items-center md:justify-between">
+        <ul className="flex flex-wrap items-center mr-0 text-xs gap-4 pt-4 sm:gap-8 md:mr-8">
           <Link to="/about-us">ABOUT US</Link>
           <Link to="/contact">CONTACT US</Link>
           <Link to="/">HELP</Link>
